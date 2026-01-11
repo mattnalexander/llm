@@ -1,3 +1,5 @@
+# Copy and paste into terminal directly and it will create a desktop shortcut that will either launch, download or both - the indicated model .
+
 cat <<'EOF' > ~/Desktop/llama-server llama3.3-8B Opus HR.command
 #!/bin/bash
 exec llama-server -hf LoveGlaze/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-Q4_K_M-GGUF --port 8080 &
@@ -6,4 +8,4 @@ open -a Safari http://localhost:8080
 wait
 EOF
 
-chmod +x ~/Desktop/llama-server.command
+chmod +x ~/Desktop/llama-server llama3.3-8B Opus HR.command
