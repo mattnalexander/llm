@@ -8,4 +8,4 @@ open -a Safari http://localhost:8080
 wait
 EOF
 
-chmod +x ~/Desktop/llama-server llama3.3-8B Opus HR.command
+chmod +x ~/Desktop/llama3.3-8BOpusHR.command
