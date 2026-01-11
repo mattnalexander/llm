@@ -1,4 +1,4 @@
-cat <<'EOF' > ~/Desktop/llama-server.command
+cat <<'EOF' > ~/Desktop/llama-server llama3.3-8B Opus HR.command
 #!/bin/bash
 exec llama-server -hf LoveGlaze/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-Q4_K_M-GGUF --port 8080 &
 sleep 2
