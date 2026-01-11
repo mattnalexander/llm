@@ -19,6 +19,4 @@ cmake -B build
 cmake --build build --config Release
 
 # Launch llama-server with HF model - Included is a gguf to help you understand how it works and get you started. 
-./build/bin/llama-server \
-  -hf mradermacher/gemma-3-4b-it-heretic-uncensored-abliterated-Extreme-i1-GGUF:i1-Q6_K \
-  --port 8080
+llama-server -hf mradermacher/gemma-3-4b-it-heretic-uncensored-abliterated-Extreme-i1-GGUF:i1-Q6_K --port 8080
