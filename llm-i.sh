@@ -14,9 +14,5 @@ set -e
 # Install Llama.cpp
 brew install llama.cpp
 brew install cmake 
-# Build llama.cpp
-cmake -B build
-cmake --build build --config Release
-
 # Launch llama-server with HF model - Included is a gguf to help you understand how it works and get you started. 
 llama-server -hf meta-llama/Llama-3.1-8B-Instruct --port 8080
