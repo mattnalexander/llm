@@ -5,7 +5,6 @@
 
 #By accessing or using this repository, you acknowledge implied consent to these terms and agree to comply with all applicable #federal, state, and organizational laws, policies, and regulations. Open-source freedom enables transparency and innovation—not #immunity from accountability. Any misuse may result in serious civil or criminal consequences.
 
-#It can’t be more than 80 characters 
+###################################################################################################################################################
 
-# llm
-#repo for llm and related scripts such as python binds, .cpp modifications, installations and etc
+#This repository is public for llm and related scripts such as python binds, .cpp modifications, installations and etc
