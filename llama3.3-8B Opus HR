@@ -1,4 +1,5 @@
-# Copy and paste into terminal directly and it will create a desktop shortcut that will either launch, download or both - the indicated model .
+# Copy and paste into terminal directly and it will create a desktop shortcut that will either launch the indicated model, download it or both.
+
 
 cat <<'EOF' > ~/Desktop/llama3.3-8BOpusHR.command
 #!/bin/bash
